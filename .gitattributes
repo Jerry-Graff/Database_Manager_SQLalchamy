@@ -1,0 +1,13 @@
+# Set text files to use LF line endings
+*.py text eol=lf
+*.ini text eol=lf
+
+# Set specific files to use LF line endings
+alembic.ini text eol=lf
+alembic/env.py text eol=lf
+alembic/script.py.mako text eol=lf
+alembic/versions/*.py text eol=lf
+
+# Denote files that are binary and should not have line ending conversions
+*.png binary
+*.jpg binary
